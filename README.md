@@ -74,3 +74,10 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/gerenc
 ## License
 
 The library is available as open source under the terms of the [MIT License](LICENSE).
+
+Publicação
+----------
+---
+Compilar Gerencianet.SDK.csproj em modo Release
+executar o comando a seguir:
+./nuget pack Eklesia.Gerencianet.SDK.nuspec
