@@ -34,7 +34,7 @@ namespace Gerencianet.SDK
         {
             try {
                 object def = new { };
-                dynamic jsonObject = JsonConvert.DeserializeAnonymousType(json, def);
+                dynamic jsonObject = JsonConvert.DeserializeAnonymousType<dynamic>(json, def);
 
                 int code = jsonObject.code;
                 string error = jsonObject.error.ToString();
