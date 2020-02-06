@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerencianet.SDK", "Gerencianet.SDK\Gerencianet.SDK.csproj", "{E4D26948-353C-4A54-BC5B-B70413EE4206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerencianet.SDK.Examples", "Gerencianet.SDK.Examples\Gerencianet.SDK.Examples.csproj", "{5FA1AF4A-4382-48C1-98F0-BD220E94480A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gerencianet.SDK.Examples", "Gerencianet.SDK.Examples\Gerencianet.SDK.Examples.csproj", "{5FA1AF4A-4382-48C1-98F0-BD220E94480A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gerencianet.SDK.Tests", "Gerencianet.SDK.Tests\Gerencianet.SDK.Tests.csproj", "{63ABEA86-B730-44AC-BFC8-BB02C1DE3711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gerencianet.SDK.Tests", "Gerencianet.SDK.Tests\Gerencianet.SDK.Tests.csproj", "{63ABEA86-B730-44AC-BFC8-BB02C1DE3711}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF736674-E7F8-49B9-861B-DB8D7FEDA91B}
 	EndGlobalSection
 EndGlobal
